@@ -1,2 +1,1 @@
-
-https://Ginezisnwd.github.io/rsschool-cv/
+https://GinezisNWD.github.io/rsschool-cv/
