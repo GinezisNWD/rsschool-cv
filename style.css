@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-bg-color: #222;
+}
+:root {
+  --main-color: #cfcfcf;
+}
+:root {
+  --green-color: #00b285;
+}
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+a:hover {
+  text-decoration: underline solid;
+  color: var(--green-color);
+}
+.link {
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+
+.body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Verdana, sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+}
+.header {
+  border: 5px solid var(--main-bg-color);
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--main-color);
+  /* Указать цвет, размер, жирность и возможно стиль шрифта */
+  transition: 0.3s;
+}
+.avatar-img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(0, 178, 133, 1);
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.main {
+  border: 5px solid var(--main-bg-color-color);
+}
+
+/* Ебусь с секциями */
+#main-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+}
+.section-title {
+  color: var(--green-color);
+  text-decoration: underline solid;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+/*  */
+.footer {
+  border: 5px solid var(--main-bg-color);
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github {
+  display: flex;
+  align-items: center;
+}
+.github-logo {
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 178, 133, 1);
+  margin: 0.6rem;
+}
+.rss-img {
+  height: 3rem;
+}
