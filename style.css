@@ -37,6 +37,7 @@ a:hover {
   font-family: Verdana, sans-serif;
   background-color: var(--main-bg-color);
   color: var(--main-color);
+  padding: 2rem;
 }
 .header {
   border: 5px solid var(--main-bg-color);
@@ -44,15 +45,15 @@ a:hover {
 .nav-list {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+
   align-items: center;
   list-style: none;
 }
 .nav-link {
-  padding: 0 20px;
+  padding: 0 10px;
   line-height: 50px;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--main-color);
   /* Указать цвет, размер, жирность и возможно стиль шрифта */
   transition: 0.3s;
@@ -119,4 +120,8 @@ a:hover {
 }
 .rss-img {
   height: 3rem;
+  margin-right: 50px;
+}
+.year {
+  margin-left: 50px;
 }
