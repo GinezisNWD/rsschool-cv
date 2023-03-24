@@ -1,0 +1,1 @@
+https://GinezisNWD.github.io/rsschool-cv/cv
